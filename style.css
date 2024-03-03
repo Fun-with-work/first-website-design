@@ -1,10 +1,26 @@
-header, .body, footer {
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer, .body, .main, .quote {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+header, footer {
     background-color: #1f2937;
+  
 }
 
 .logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
+.link {
     color: #e5e7eb;
-    font-size: 18px;
+    font-size: 18px;  
+    gap: 30px;
 }
 
 header {
@@ -16,8 +32,59 @@ ul {
    display: flex; 
 }
 
-li {
+a {
     text-decoration: none;
     color: #f9faf8;
     font-size: 24px;
 }
+
+.body {
+    background-color: #1f2937; 
+    display: flex;
+    gap: 100px;
+    padding-top: 100px;
+ }
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 800;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.picture {
+    width: 80%;
+    margin-bottom: 200px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    padding: 150px 400px;
+}
+.quote-text {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.join, button {
+  background-color: #3882f6;  
+  color: #f9faf8;;
+}
+
+.join {
+    display: flex;
+    padding: 50px 100px;
+    margin: 150px 300px;
+    justify-content: space-around;
+  
+}
+
+/* info header txt
+36px extra-bold #1f2937 */
