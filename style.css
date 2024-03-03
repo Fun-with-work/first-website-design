@@ -97,5 +97,8 @@ a {
     justify-content: space-around;  
 }
 button {
-    padding: 60px 120 px;
+       display: inline-block;
+       height: 30px;
+       width: 100px;
+       border-radius: 8px;
 }
