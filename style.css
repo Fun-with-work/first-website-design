@@ -49,7 +49,7 @@ a {
     padding-top: 100px;
 }
 
-.main-text {
+.hero-text {
     font-size: 48px;
     color: #f9faf8;
     font-weight: 800;
@@ -79,13 +79,16 @@ a {
 
 .container {
     display: flex;
+    gap: 70px;
     justify-content: center;
-    gap: 50px;
+    text-align: center;
+}
+
+.info {
+    width: 170px;
 }
 
 .pic {
-    display: flex;
-    flex-wrap: wrap;
     height: 170px;
     width: 170px;
     border: 6px solid rgba(0, 81, 255, 0.492);
@@ -93,13 +96,12 @@ a {
 }
 
 .subject {
-    text-align: center;
-    width: 150px;
+    max-width: 170px;
+    font-size: 18px;
 }
 
 .quote {
     background-color: #e5e7eb;
-    /* display: flex; */
     padding: 150px 500px;
 }
 .quote-text {
