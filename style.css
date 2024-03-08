@@ -63,6 +63,8 @@ a {
 .picture {
     width: 80%;
     float: right;
+    /* margin-left: 30px; margin-right: 30px; */
+    box-shadow: 4px 4px 6px rgb(194, 148, 68); 
 }
 
 .main {
@@ -108,11 +110,15 @@ img:hover {
 .subject {
     max-width: 170px;
     font-size: 18px;
+    
 }
 
 .quote {
     background-color: #e5e7eb;
     padding: 150px 500px;
+    color: brown; font-size: 1.5em;
+    margin-left: 30px; margin-right: 30px;
+    box-shadow: 4px 4px 6px gray; 
 }
 .quote-text {
     color: #1f2937;
