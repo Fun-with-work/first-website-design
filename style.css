@@ -95,6 +95,11 @@ a {
     border-radius: 14px;
 }
 
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
 .subject {
     max-width: 170px;
     font-size: 18px;
